@@ -1,0 +1,145 @@
+.btn {
+  background: #333;
+  border-radius: 32px;
+  outline: none;
+  font-size: 0.9rem;
+  color: var(--white-text);
+  letter-spacing: 0.2px;
+  margin-left: 0.7rem;
+  padding: 0.7rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.search-box {
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  width: 344px;
+  margin-left: 1rem;
+}
+/*@media (max-width: 600px) {
+  .search-box {
+    width: 80%;
+  }
+  .btn {
+    margin: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .search-block {
+    padding-top: 4rem;
+  }
+}*/
+
+.list {
+  padding-top: 20px;
+  width: 530px;
+  margin-left: 5rem;
+}
+/*@media (max-width: 600px) {
+  .list {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}*/
+
+.card {
+  background: #333;
+  border-radius: 14px;
+  padding: 1rem 2rem;
+  min-width: 250px;
+  max-width: 630px;
+  transition: all 0.6s;
+  margin: 2.5rem 1rem;
+}
+.card:hover {
+  border-left: 8px solid #4eb01c;
+  border-top: 3px solid #4eb01c;
+  border-bottom: 3px solid #4eb01c;
+  border-right: 3px solid #4eb01c;
+  /*background: #4eb01c;
+  box-shadow: 2px 6px 0px 0px rgba(189, 189, 189, 0.99);*/
+}
+/*.card:hover .card-btn {
+  background: #7bca54;
+}*/
+.card-title {
+  font-size: 24px;
+  line-height: 22px;
+  color: var(--white-text);
+}
+.card-logo {
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 1px 4px 13px rgba(118, 123, 244, 0.25);
+  border-radius: 6px;
+  position: relative;
+  top: -60px;
+}
+/*@media (max-width: 410px) {
+  .card-logo {
+    width: 50px;
+    height: 50px;
+    left: 24px;
+    top: -97px;
+  }
+}*/
+.card-company {
+  font-size: 18px;
+  line-height: 0px;
+  padding-top: 3%;
+  color: var(--white-text);
+}
+.three-rows {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location {
+  margin-top: 1rem;
+}
+.small {
+  font-size: 14px;
+  line-height: 10px;
+  color: var(--white-text);
+
+}
+.big {
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--white-text);
+  padding-top: 5%;
+}
+.card-btn {
+  background: #717171;
+  background-color: red;
+  border-radius: 4px;
+  border: none;
+  width: 100px;
+  font-size: 14px;
+  line-height: 15px;
+  color: #FFFFFF;
+  padding: 0.8rem;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.load-btn {
+  width: 201.41px;
+  height: 46px;
+  background: #717171;
+  border-radius: 32px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
